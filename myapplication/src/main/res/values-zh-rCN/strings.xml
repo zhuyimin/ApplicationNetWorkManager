@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">联网设置</string>
+    <string name="all_application">全部</string>
+    <string name="app_gprs">gprs</string>
+    <string name="app_wifi">wlan</string>
+    <string name="personal_app">个人应用</string>
+    <string name="initialize_data">初始化</string>
+    <string name="loading_data">加载数据中...</string>
+    <string name="save_data">保存数据中</string>
+    <string name="system_app">系统应用</string>
+    <string name="please_waite">请稍等...</string>
+
+</resources>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#fff</color>
+    <color name="material_empty_color_light">#FFCED7DB</color>
+    <color name="little_white">#fbfbfb</color>
+    <color name="memory_used">#F00</color>
+    <color name="memory_avail">@color/material_empty_color_light</color>
+    <color name="memory_apps_usage">#00796B</color>
+    <color name="memory_downloads">#3367D6</color>
+    <color name="memory_dcim">#0097A7</color>
+    <color name="memory_music">#689F38</color>
+    <color name="memory_cache">#283593</color>
+    <color name="memory_misc">#7B1FA2</color>
+    <color name="memory_user_light">#479392</color>
+    <color name="memory_user_dark">#316665</color>
+
+    <color name="crypt_keeper_clock_background">#ff9a9a9a</color>
+    <color name="crypt_keeper_clock_foreground">#ff666666</color>
+    <color name="crypt_keeper_clock_am_pm">#ff9a9a9a</color>
+    <color name="crypt_keeper_password_background">#70606060</color>
+
+    <color name="divider_color">#20ffffff</color>
+    <color name="title_color">@android:color/holo_blue_light</color>
+    <color name="setup_divider_color_dark">#33ffffff</color>
+    <color name="setup_divider_color_light">#33000000</color>
+    <color name="setup_lock_pattern_view_regular_color_dark">#ffbdbdbd</color>
+    <color name="setup_lock_pattern_view_regular_color_light">@color/lock_pattern_view_regular_color</color>
+    <color name="setup_lock_pattern_view_success_color_dark">#ff84ffff</color>
+    <color name="setup_lock_pattern_view_error_color_dark">#fff44336</color>
+    <color name="setup_lock_pattern_view_error_color_light">@color/lock_pattern_view_error_color</color>
+    <color name="setup_wizard_wifi_color_dark">#89ffffff</color>
+    <color name="setup_wizard_wifi_color_light">#89000000</color>
+
+    <color name="system_warning_color">#fff4511e</color><!-- deep orange 600 -->
+
+    <color name="lock_pattern_background">#00000000</color>
+    <color name="lock_pattern_view_regular_color">#ff37474f</color>
+    <color name="lock_pattern_view_error_color">@color/warning</color>
+
+    <color name="lock_pattern_view_regular_color_dark">#ffffff</color>
+
+    <color name="unlock_pattern_view_regular_color">@android:color/white</color>
+    <color name="unlock_pattern_view_error_color">@color/system_warning_color</color>
+
+    <color name="fingerprint_title_area_bg">?android:attr/colorAccent</color>
+    <color name="fingerprint_title_color">#ffffffff</color>
+    <color name="fingerprint_message_color">#de000000</color>
+    <color name="fingerprint_progress_ring">?android:attr/colorAccent</color>
+    <color name="fingerprint_progress_ring_bg">#20000000</color>
+    <color name="fingerprint_indicator_background_resting">#12000000</color>
+
+    <color name="running_processes_system_ram">#ff384248</color>
+    <color name="running_processes_apps_ram">#ff009587</color>
+    <color name="running_processes_free_ram">#ffced7db</color>
+    <color name="memory_progress_color">#FF2775D7</color>
+
+    <color name="card_background">#ffffffff</color>
+
+    <color name="switchbar_background_color">#fffafafa</color>
+    <color name="switch_accent_color">#ff7fcac3</color>
+
+    <color name="wifi_divider">#ffe0e0e0</color>
+    <color name="sim_noitification">@*android:color/material_deep_teal_500</color>
+
+    <color name="warning">#ff5621</color>
+    <color name="confirm_device_credential_dark_background">#263238</color>
+    <color name="fab_ripple">#1fffffff</color><!-- 12% white -->
+    <color name="fab_shape">?android:attr/colorAccent</color>
+    <color name="voice_interaction_highlight">#33b5e5</color>
+
+    <drawable name="fp_enrollment_header_landscape">#009688</drawable>
+
+    <color name="memory_normal">#ff009587</color>
+    <color name="memory_moderate">#ffF3B300</color>
+    <color name="memory_low">#ffff9700</color>
+    <color name="memory_critical">#ffff5621</color>
+
+    <color name="memory_avg_use">#ff384248</color>
+    <color name="memory_max_use">#ff009587</color>
+    <color name="memory_remaining">#ffced7db</color>
+
+    <color name="zen_rule_name_warning">@color/system_warning_color</color>
+
+    <!-- Accent color that matches the settings launcher icon -->
+    <color name="icon_accent">#ffabffec</color>
+
+    <!--add by chen-->
+    <color name="iris_image_selector_pressed">#0D000000</color>
+
+    <!--add by shen-->
+    <color name="techain_default_widget_background_color">#1DB4D3</color>
+    <color name="tab_background_colors">@color/white</color>
+    <color name="filter_block">#0A0A0A</color>
+    <color name="little_block">#3F3F3F</color>
+    <color name="link_color">#DEDEDE</color>
+    <color name="category_title_background_text">#4D000000</color>
+    <color name="little_than_black1">#ece8e8</color>
+    <color name="little_than_black_line">#DBDBDB</color>
+    <color name="little_than_black">@color/little_than_black_line</color>
+    <color name="tab_title_text_color_selected">@color/techain_default_widget_background_color</color>
+    <color name="tab_title_text_color_disselect">#D4D4D4</color>
+    <!--<color name="dialog_title_text_color">#3A3A3A</color>-->
+    <color name="dialog_title_text_color">#CC000000</color>
+    <color name="dialog_title_btn_background_color">#28C0C6</color>
+    <color name="dialog_title_btn_background_color_ed">#979797</color>
+    <color name="dialog_title_btn_background_color_line">#E3E3E3</color>
+    <color name="dialog_title_btn_background_color_ing">#F1F1F1</color>
+    <color name="input_layout_background_color">#FAFAFA</color>
+    <color name="input_text_background_color">#666666</color>
+    <color name="input_text_color">#FF3A3A3A</color>
+    <color name="line_color">#E7E7E7</color>
+    <color name="btn_pressed_color">#0EAAFF</color>
+
+    <color name="actionBar_text_clock">#0EAAFF</color>
+    <color name="iris_scan_state_checked_bg_clock">#09A6F9</color>
+    <color name="iris_scan_state_checked_bg_stroke_clock">#096699</color>
+    <color name="iris_scan_state_checked_bg_clock_gray">#979797</color>
+    <color name="iris_scan_state_checked_bg_stroke_clock_gray">#676767</color>
+    <color name="actionBar_bg_clock">#FFFFFF</color>
+    <color name="gray_hint">#99000000</color>
+    <color name="dialog_text_color">#CC000000</color>
+    <color name="buttons_background_stroke_color">#979797</color>
+    <color name="button_text_color_down">#ffffff</color>
+    <!--by shen add to fingerprint-->
+    <color name="items_title_color">@color/dialog_title_text_color</color>
+    <!-- black 30%-->
+    <color name="items_summary_color">#4D000000</color>
+    <color name="onclick_layout_color">@color/search_layout_background_color</color>
+    <color name="trianglePaint_color">#FF2491E4</color>
+    <!--by shen add to iris-->
+    <color name="text_title_color">#3A3A3A</color>
+    <color name="little_background_color">#D8D8D8</color>
+    <color name="little_background_bg_color">#F4F4F4</color>
+    <color name="cicle_black_color">#858585</color>
+    <!--by shen add for list_background-->
+    <color name="list_background_transparent">#99000000</color>
+    <color name="list_background_white">#00000000</color>
+    <color name="center_add_iris_color">#2F76AD</color>
+    <color name="iris_security_system_color">#CC000000</color>
+    <color name="search_layout_background_color">#EBEBEB</color>
+    <!--by shen add for default color ui 1.5 start-->
+    <color name="ic_default_main_layout_background_color">@color/ic_default_actionbar_background_color</color>
+    <!-- black 80%-->
+    <color name="ic_default_title_text_color">#CC000000</color>
+    <color name="ic_default_back_text_info_color">#4D000000</color>
+    <color name="ic_default_actionbar_background_color">#EFEFF0</color>
+    <color name="ic_default_edittext_periphery_line_color">#FFD8D8D8</color>
+    <color name="ic_default_edittext_internal_background_color">#FFF8F8F8</color>
+    <color name="ic_default_edittext_layout_background_color">@color/ic_default_actionbar_background_color</color>
+    <color name="ic_default_edittext_search_hint_text_color">#B9B9B9</color>
+    <color name="ic_default_layout_background_color">#F8F8F8</color>
+    <color name="ic_default_actionbar_back_btn_background_color">#B3000000</color>
+    <color name="ic_default_about_device_actionbar_background_color">#F0F6F6</color>
+    <color name="ic_default_wifi_siglal_lock_background_color">#4C4D4D</color>
+    <color name="ic_default_fingerprint_animation_backgroundTint">@color/ic_default_back_text_info_color</color>
+    <color name="ic_default_preference_background_false_color">#FAFAFA</color>
+    <color name="ic_default_system_bottom_line_color">#DBDBDB</color>
+    <!--black 6%-->
+    <color name="ic_default_datausage_center_icons_background_color">#0F000000</color>
+    <!--black 10%-->
+    <color name="ic_default_btn_background_text_color">#1A000000</color>
+    <!--by shen add for default color ui 1.5 end-->
+    <color name="font_size_dialog_color">#000000</color>
+    <color name="can_not_click_color">#33000000</color>
+    <!-- add by zhanghui for #88355 start -->
+    <color name="btn_default_shape_press_color">#2775D7</color>
+    <color name="btn_default_shape_border_color">#979797</color>
+    <!-- add by zhanghui for #88355 end -->
+    <!-- add by zhouqinglong for 2017/3/1 start -->
+    <color name="iris_guide_color">#D9000000</color>
+</resources>

@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme.ShenSettings" parent="@android:style/Theme.Material.Light">
+        <item name="android:actionBarWidgetTheme">@null</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:toolbarStyle">@null</item>
+        <item name="android:actionBarSize">@dimen/action_bar_default_height_material</item>
+        <item name="android:colorPrimary">@color/ic_default_main_layout_background_color</item>
+        <item name="android:colorPrimaryDark">@color/ic_default_main_layout_background_color</item>
+        <item name="android:textColorPrimary">#3A3A3A</item>
+        <item name="android:textColorSecondary">#3A3A3A</item>
+        <item name="android:contentInsetStart">0dp</item>
+        <item name="android:seekBarStyle">@android:style/Widget.DeviceDefault.SeekBar</item>
+        <item name="android:windowElevation">0px</item>
+        <item name="android:editTextBackground">@drawable/mycustomedit</item>
+        <item name="android:windowContentOverlay">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <!--<item name="android:navigationBarDividerColor">#4D000000</item>-->
+    </style>
+
+</resources>

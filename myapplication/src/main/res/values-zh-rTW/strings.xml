@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">聯網設置</string>
+    <string name="all_application">全部</string>
+    <string name="app_gprs">gprs</string>
+    <string name="app_wifi">wifi</string>
+    <string name="personal_app">個人應用</string>
+    <string name="initialize_data">初始化</string>
+    <string name="loading_data">加載數據中...</string>
+    <string name="save_data">保存數據中</string>
+    <string name="please_waite">請稍等...</string>
+    <string name="system_app">系統應用</string>
+</resources>

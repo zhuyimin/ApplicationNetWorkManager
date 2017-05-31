@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/ic_default_main_layout_background_color"
+    android:layout_height="match_parent"
+    android:id="@+id/action_bar_layout">
+
+    <ImageButton
+        android:id="@+id/ps_back_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/ic_myactionbar_back_btn"
+        android:scaleType="centerInside"/>
+        
+    <TextView
+        android:id="@+id/my_actionbar_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@id/ps_back_btn"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/ic_default_title_text_color"
+        android:textSize="@dimen/actionBar_text_size"/>
+
+    <ImageButton
+        android:id="@+id/ps_save_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Network Settings</string>
+    <string name="all_application">ALL</string>
+    <string name="app_gprs">gprs</string>
+    <string name="app_wifi">wifi</string>
+    <string name="personal_app">personal applications</string>
+    <string name="system_app">system applications</string>
+    <string name="initialize_data">initialize</string>
+    <string name="loading_data">loading data...</string>
+    <string name="save_data">saving date</string>
+    <string name="please_waite">please waite...</string>
+</resources>

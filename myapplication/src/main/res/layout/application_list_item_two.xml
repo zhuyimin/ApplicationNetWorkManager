@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:id="@+id/show_data_speed"
+		android:layout_height="64dp">
+
+		<ImageView
+			android:id="@+id/application_icon"
+			android:layout_width="36dp"
+			android:layout_marginStart="16dp"
+			android:layout_centerVertical="true"
+			android:layout_height="36dp" >
+		</ImageView>
+		<TextView
+			android:id="@+id/application_name"
+			android:layout_width="200dp"
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:textSize="14sp"
+			android:textColor="#CC000000"
+			android:layout_marginStart="68dp" />
+
+		<CheckBox
+			android:id="@+id/gprs_btn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:checked="true"
+			android:layout_centerVertical="true"
+			android:layout_alignParentRight="true"
+			android:layout_marginRight="16dp" />
+	</RelativeLayout>
+</LinearLayout>
